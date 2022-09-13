@@ -17,8 +17,13 @@ body{
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    align-content: center;
-    padding: 5em ;
+    align-items: center;
+    padding: 5em 1.5em;
+}
+@media screen and (min-width:500px){
+    body{
+        padding: 0;
+    }
 }
 .col1{
     background-color: var(--first-col-bgc);
